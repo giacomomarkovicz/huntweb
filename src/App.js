@@ -1,13 +1,15 @@
 import React from 'react';
-import Header from './components/Header/index';
-import Main from './pages/main/index';
+import Routes from './routes';
 
 import './styles.css';
 
+import Header from './components/Header/index';
+import Main from './pages/main/index';
+
 const App = () => (
-  <div className='App'>
+  <div className="App">
     <Header />
-    <Main />
+    <Routes />
   </div>
 );
 
